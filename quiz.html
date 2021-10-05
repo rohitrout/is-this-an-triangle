@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navigation container">
+	<nav class="navigation container">
         <div class="nav-brand">iAmDeveloper</div>
             <ul class="list-non-bullet nav-pills">
              <li class="list-item-inline">
@@ -19,14 +19,22 @@
                  <a class="link" href="/quiz.html">Quiz</a></li>
             </ul>
         </nav>
-   <h1>Identify an triangle</h1>
-<label>Enter 1st angle</label><input id="ang1"></input><br/>
-<label>Enter 2nd angle</label><input id="ang2"></input><br/>
-<label>Enter 3rd angle</label><input id="ang3"></input><br/>
+    <h1>Check your knowledge</h1>
+<form class="quiz-form">
+<p>What will be the third side ? first:45 & second:90<br/>
+	<label></label><input id="sd1" type="radio" name="que1" value="45">45</input>
+	<label></label><input id="sd2" type="radio" name="que1" value="60">60</input><br/>
+</p>
 
+<p>What will be the second side ? first:90 & second:60<br/>
+	<label></label><input id="sd1" type="radio" name="que2" value="50">50</input>
+	<label></label><input id="sd2" type="radio" name="que2" value="30">30</input><br/>
+</p>
+</form>
+
+<button id="btn-submit">Submit</button>
 <h2 id="output"></h2>
-<button id="btn-check">Check</button>
-<script src="app1.js">
-</script>
+<script src="quiz.js">
+	</script>
 </body>
 </html>
