@@ -4,7 +4,7 @@ var btnCalc=document.querySelector("#btn-submit");
 var outputl=document.querySelector("#output");
 
 
-var correctAns=["45","30"];
+var correctAns=["45","30","Polygon","3","Equilateral"];
 
 function calculateScore()
 {
